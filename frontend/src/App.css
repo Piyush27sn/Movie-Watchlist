@@ -1,0 +1,33 @@
+:root {
+  --color-primary-start: #FF6F61;
+  --color-primary-middle: #FFCC70;
+  --color-primary-end: #6A82FB;
+
+  --color-accent: #FFE082;
+
+  --color-bg-light: #f7f7f7;
+  --color-bg-dark: #1C1C1C;
+
+  --color-text-primary: #212121;
+  --color-text-secondary: #8abd22;
+
+  --color-primary-middle-hover: #fde2af;
+
+  --color-success: #4CAF50;
+  --color-danger: #E53935;
+  --color-info: #29B6F6;
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-primary);
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+a {
+  color: var(--color-primary-start);
+}
+
+a:hover {
+  color: var(--color-accent);
+}

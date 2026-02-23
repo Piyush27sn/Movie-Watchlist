@@ -1,0 +1,27 @@
+.homeBanner {
+  background-image: url("../assets/home-banner.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 70vh;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.span {
+    color: var(--color-primary-start);
+}
+
+.homeBanner h6 {
+    color: var(--color-primary-middle);
+}
+
+/* .homeArrowIcon {
+    font-size: 1.5rem !important;
+    color: var(--color-primary-end);
+} */

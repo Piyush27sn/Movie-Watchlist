@@ -36,4 +36,28 @@ const addToWatchlist = async (req, res) => {
     });
 }
 
-export { addToWatchlist };
+const getWatchlist = async (req, res) => {
+    try {
+        // 1. Find all watchlist items for the logged-in user
+        const watchlist = await WatchlistItem.find({ userId: req.user._id })
+            .populate("movieId")    // populate movie details from Movie schema
+            .exec()
+
+        // 2. If empty, return
+        if (!watchlist || watchlist.length === 0) {
+            return res.status(200).json({ message: "Your watchlist is empty", data: [] });
+        }
+
+        // 3. Return the watchlist with movie details
+        res.status(200).json({
+            message: "Watchlist fetched successfully",
+            count: watchlist.length,
+            data: watchlist
+        }); 
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Server error"});
+    }
+};
+
+export { addToWatchlist, getWatchlist };

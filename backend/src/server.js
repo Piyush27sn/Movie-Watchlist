@@ -9,6 +9,7 @@ import watchlistRoutes from './routes/watchlistRoutes.js';
 import testMovies from './aa/r.js';     // testing route
 
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 
 config();
@@ -22,6 +23,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cookieParser());
+
+
+// CORS setup
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true,      // allows cookies to be sent
+}));
+
 
 // API routes
 app.use('/movies', movieRoutes);

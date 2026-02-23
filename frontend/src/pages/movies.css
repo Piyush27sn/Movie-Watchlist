@@ -1,0 +1,46 @@
+.moviesMain {
+    background-color: black !important;
+}
+
+.movieCard {
+    color: white !important;
+    background-color: var(--color-bg-dark) !important;
+
+    border-radius: 5px !important;
+    height: 30rem !important;
+
+    cursor: pointer;
+}
+
+.movieCard img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px !important;
+}
+
+.movieCard h5 {
+    color: var(--color-primary-start);
+    font-weight: 650 !important;
+    padding-top: 10px !important;
+}
+
+.movieCard small {
+    color: var(--color-primary-middle-hover);
+}
+
+.movieCard .overview {
+    font-weight: 100;
+    padding-top: 0.5rem;
+}
+
+.movieCard .box {
+    padding: 0px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieCard .bold {
+    font-weight: bold;
+}

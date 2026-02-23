@@ -24,7 +24,7 @@ const seed = async () => {
         releaseYear: 1999,
         genres: ["Action", "Sci-Fi"],
         runtime: 136,
-        posterUrl: "https://example.com/matrix.jpg",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png",
         createdBy: user._id,
       },
       {
@@ -34,7 +34,7 @@ const seed = async () => {
         releaseYear: 2010,
         genres: ["Action", "Sci-Fi", "Thriller"],
         runtime: 148,
-        posterUrl: "https://example.com/inception.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
       {
@@ -43,7 +43,7 @@ const seed = async () => {
         releaseYear: 2008,
         genres: ["Action", "Crime", "Drama"],
         runtime: 152,
-        posterUrl: "https://example.com/darkknight.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
       {
@@ -53,7 +53,7 @@ const seed = async () => {
         releaseYear: 1994,
         genres: ["Crime", "Drama"],
         runtime: 154,
-        posterUrl: "https://example.com/pulpfiction.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
       {
@@ -62,7 +62,7 @@ const seed = async () => {
         releaseYear: 2014,
         genres: ["Adventure", "Drama", "Sci-Fi"],
         runtime: 169,
-        posterUrl: "https://example.com/interstellar.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
       {
@@ -71,7 +71,7 @@ const seed = async () => {
         releaseYear: 1994,
         genres: ["Drama"],
         runtime: 142,
-        posterUrl: "https://example.com/shawshank.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
         createdBy: user._id,
       },
       {
@@ -81,7 +81,7 @@ const seed = async () => {
         releaseYear: 1999,
         genres: ["Drama"],
         runtime: 139,
-        posterUrl: "https://example.com/fightclub.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg",
         createdBy: user._id,
       },
       {
@@ -91,7 +91,7 @@ const seed = async () => {
         releaseYear: 1994,
         genres: ["Drama", "Romance"],
         runtime: 142,
-        posterUrl: "https://example.com/forrestgump.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg",
         createdBy: user._id,
       },
       {
@@ -101,7 +101,7 @@ const seed = async () => {
         releaseYear: 1972,
         genres: ["Crime", "Drama"],
         runtime: 175,
-        posterUrl: "https://example.com/godfather.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
       {
@@ -110,7 +110,7 @@ const seed = async () => {
         releaseYear: 1990,
         genres: ["Biography", "Crime", "Drama"],
         runtime: 146,
-        posterUrl: "https://example.com/goodfellas.jpg",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         createdBy: user._id,
       },
     ];
